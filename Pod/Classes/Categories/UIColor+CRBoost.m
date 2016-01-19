@@ -37,6 +37,18 @@
 }
 
 + (UIColor *)colorWithString:(NSString *)string {
+    
+    NSString *cString = [[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
+    if ([cString length] < 6)
+        return  [UIColor whiteColor];
+    
+    if ([cString hasPrefix:@"0X"])
+        cString = [cString substringFromIndex:2];
+    else if ([cString hasPrefix:@"#"])
+        cString = [cString substringFromIndex:1];
+    
+    if ([cString length] != 6)
+        return  [UIColor whiteColor];
     if(![string hasPrefix:kBracketBigBegin] || ![string hasSuffix:kBracketBigEnd]) return nil;
     
     NSString *colorValue = [string substringWithRange:NSMakeRange(1, string.length-2)];
