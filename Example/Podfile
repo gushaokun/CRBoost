@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'CRBoost_Example', :exclusive => true do
+  pod "CRBoost", :path => "../"
+end
+
+target 'CRBoost_Tests', :exclusive => true do
+  pod "CRBoost", :path => "../"
+
+  pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+end
