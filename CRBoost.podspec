@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "CRBoost"
   s.version          = "0.0.1"
-  s.summary          = "CRBoost is a set of standard iOS application used some macro definitions, categories and methods through the development of long experience gathered easier for developers to use"
+  s.summary          = "CRBoost is a set of standard iOS application used some macro definitions, categories and methods"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                        CRBoost is a set of standard iOS application used some macro definitions, categories and methods
+                        CRBoost is a set of standard iOS application used some macro definitions, categories and methods through the development of long experience gathered easier for developers to use
                        DESC
 
   s.homepage         = "https://github.com/gushaokun/CRBoost"
