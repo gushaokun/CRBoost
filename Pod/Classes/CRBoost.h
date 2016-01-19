@@ -21,7 +21,6 @@
 #import "CRAppConst.h"
 #import "CRAppInline.h"
 #import "Utility.h"
-#import "CRKeyboardUtility.h"
 #import "UIView+CRBoost.h"
 #import "UIFont+CRBoost.h"
 #import "UIColor+CRBoost.h"
