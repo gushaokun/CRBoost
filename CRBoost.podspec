@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CRBoost"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "CRBoost is a set of standard iOS application used some macro definitions, categories and methods"
 
 # This description is used to generate tags and improve search results.
